@@ -1,0 +1,20 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  line-height: 30px;
+  border-bottom: 1px solid #DBD9D9;
+}
+
+.navbar-name, .nav-link {
+  color: #000;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1120px;
+  }
+}
