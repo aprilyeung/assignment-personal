@@ -1,4 +1,4 @@
-body {
+body, .footer {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -8,15 +8,19 @@ body {
   }
 }
 
-.navbar {
+.navbar, .hero-section, .social-media {
   line-height: 30px;
   border-bottom: 1px solid #DBD9D9;
 }
 
 .navbar-name, .nav-link {
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
+}
+
+.navbar-name:hover {
+  text-decoration: none;
 }
 
 .hero-section {
@@ -33,7 +37,7 @@ body {
 
 @media (max-width: 576px) {
   h1 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   h4 {
     font-size: 0.4rem;
@@ -45,7 +49,7 @@ body {
     font-size: 1rem;
   }
   h4 {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -54,7 +58,7 @@ body {
     font-size: 1.5rem;
   }
   h4 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -75,10 +79,19 @@ body {
   z-index: 10;
   }
 
-.sidenav i {
+i {
   color: #353535;
 }
 
-.port-text {
+span {
   font-size: 24px;
+}
+
+#about {
+  border-top: 1px solid #DBD9D9;
+}
+
+.footer {
+  font-size: 10px;
+  color: #454645;
 }
