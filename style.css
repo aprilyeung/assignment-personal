@@ -2,6 +2,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1300px;
+  }
+}
+
 .navbar {
   line-height: 30px;
   border-bottom: 1px solid #DBD9D9;
@@ -13,8 +19,61 @@ body {
   font-weight: 100;
 }
 
-@media (min-width: 1200px) {
-  .container-fluid {
-    max-width: 1120px;
+.container-fluid {
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-20%, -20%);
+  color: #FFF;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 0.5rem;
   }
+  h4 {
+    font-size: 0.4rem;
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}
+
+.sidenav {
+  width: 10px;
+  position: fixed;
+  top: 50%;
+  left: 0;
+  }
+
+.sidenav i {
+  color: #353535;
 }
