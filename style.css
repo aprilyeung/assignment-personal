@@ -19,7 +19,7 @@ body {
   font-weight: 100;
 }
 
-.container-fluid {
+.hero-section {
   position: relative;
 }
 
@@ -72,8 +72,13 @@ body {
   position: fixed;
   top: 50%;
   left: 0;
+  z-index: 10;
   }
 
 .sidenav i {
   color: #353535;
+}
+
+.port-text {
+  font-size: 24px;
 }
